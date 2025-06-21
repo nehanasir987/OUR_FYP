@@ -2,14 +2,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Character encoding set to UTF-8 to support all characters -->
     <meta charset="UTF-8">
-    <title>AlignSkills</title>
-    <link rel="stylesheet" href="{% static 'css/footer-styling.css' %}">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-<style>
     
-</style>
+    <!-- Title of the webpage shown in browser tab -->
+    <title>AlignSkills</title>
+    
+    <!-- Link to external CSS file for footer styling (served via Django static files) -->
+    <link rel="stylesheet" href="{% static 'css/footer-styling.css' %}">
+    
+    <!-- Import Poppins font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+    <!-- Internal CSS can be written here if needed -->
+    <style>
+    
+    </style>
 </head>
+
 <body>
     <footer>
     <!-- Footer Container -->
@@ -18,7 +28,7 @@
         <!-- First Footer Section: About Us -->
         <div class="footer-section">
             <h2>Learning Redefined</h2> <!-- Title of the section -->
-            <p>Your skills are the key to success. At AlignSkills, we provide the resources & training to help you unlock your true potential.</p>
+            <p>Your skills are the key to success. At <b>AlignSkills</b>, we provide the resources & training to help you unlock your true potential.</p>
             <p>Empowering learners worldwide.</p> <!-- Additional text for encouragement -->
         </div>
 
@@ -74,12 +84,10 @@
     <button id="scrollToTop" onclick="scrollToTop()">↑</button> <!-- Scroll button that moves the page to the top -->
 </footer>
 
-
 <!-- JavaScript -->
 <script>
 
-
-    // --------Flexbox layout apply karna (first DOMContentLoaded event)----------------
+    // --------Flexbox layout apply (first DOMContentLoaded event)----------------
 
 
 
@@ -139,10 +147,6 @@ document.addEventListener("DOMContentLoaded", function () {
     console.error("Form or message element not found"); // Log error if form or message element is not found
   }
 });
-
-
-
-
 
 </script>
 
