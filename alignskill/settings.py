@@ -72,8 +72,7 @@ SOCIALACCOUNT_PROVIDERS = {
 
       'google': {
         'APP': {
-            'client_id': '438907472401-mvkp1n36koh13jqn4llqf5b4gu47k75u.apps.googleusercontent.com',
-            'secret': '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',
+          
         },
         'SCOPE': [
             'profile',
